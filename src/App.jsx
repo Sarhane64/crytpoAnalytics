@@ -7,8 +7,10 @@ function App() {
   const dataCryptos = dataCrypto.data;
   return (
     <>
-      <Header />
-      <Treemaps coinsData={dataCryptos} />
+      <div className="header">
+        <Header />
+        <Treemaps coinsData={dataCryptos} />
+      </div>
       <Table cryptoTokenData={dataCryptos} />
     </>
   );

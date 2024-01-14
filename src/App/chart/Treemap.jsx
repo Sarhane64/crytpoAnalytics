@@ -8,7 +8,7 @@ function Treemaps({ coinsData }) {
   const generateTreemapData = (data) => {
     let chartData = [];
 
-    for (let i = 0; i < 20; i++) {
+    for (let i = 0; i < 25; i++) {
       if (excludeCoin(data[i].symbol)) {
         chartData.push({
           name:

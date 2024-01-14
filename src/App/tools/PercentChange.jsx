@@ -6,20 +6,12 @@ const PercentChange = ({ percent }) => {
 
   useEffect(() => {
     if (percent !== undefined) {
-      if (percent >= 20) {
-        setColor("rgb(46, 137, 51)");
-      } else if (percent >= 5) {
-        setColor("rgb(124, 238, 90)");
-      } else if (percent >= 1) {
-        setColor("rgb(144,238,144)");
-      } else if (percent === 0) {
-        setColor("rgb(255,250,250)");
-      } else if (percent >= -5) {
-        setColor("rgb(255, 111, 86)");
-      } else if (percent >= -20) {
-        setColor("rgb(251, 69, 63)");
+      if (percent >= 1) {
+        setColor("#35C259");
+      } else if (percent <= -1) {
+        setColor("#EA3942");
       } else {
-        setColor("rgb(255, 0, 0)");
+        setColor("#CDEBCB");
       }
     }
   }, [percent]);

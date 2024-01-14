@@ -33,7 +33,6 @@ function TableLine({ coin, index }) {
         </div>
         <div className="infos">
           <h4>{coin.name}</h4>
-          <span>- {coin.symbol.toUpperCase()}</span>
         </div>
       </div>
       <p>{priceFormater(coin.current_price).toLocaleString()} $</p>

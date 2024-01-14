@@ -13,9 +13,9 @@
       "high_24h": 28108,
       "low_24h": 26720,
       "price_change_24h": -887.6711344268733,
-      "price_change_percentage_24h": -3.15936,
+      "price_change_percentage_24h": 3.15936,
       "market_cap_change_24h": -17360003096.81067,
-      "market_cap_change_percentage_24h": -3.19523,
+      "market_cap_change_percentage_24h": 3.19523,
       "circulating_supply": 19330093,
       "total_supply": 21000000,
       "max_supply": 21000000,
@@ -28,12 +28,12 @@
       "roi": null,
       "last_updated": "2023-03-27T23:30:58.704Z",
       "price_change_percentage_14d_in_currency": 23.141027682805944,
-      "price_change_percentage_1h_in_currency": 0.024366650987030603,
-      "price_change_percentage_1y_in_currency": -38.87132668270908,
+      "price_change_percentage_1h_in_currency": 3.024366650987030603,
+      "price_change_percentage_1y_in_currency": 38.87132668270908,
       "price_change_percentage_200d_in_currency": 41.120362437319756,
-      "price_change_percentage_24h_in_currency": -3.159358812310631,
+      "price_change_percentage_24h_in_currency": 3.159358812310631,
       "price_change_percentage_30d_in_currency": 17.41995554869482,
-      "price_change_percentage_7d_in_currency": -3.4695411325901935
+      "price_change_percentage_7d_in_currency": 3.4695411325901935
     },
     {
       "id": "ethereum",
