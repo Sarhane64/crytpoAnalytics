@@ -1,7 +1,7 @@
 .header {
   display: flex;
   background: #383a40;
-  margin-bottom: 20px;
+  padding: 20px 20px;
   @media screen and (max-width: 1150px) {
     grid-template-columns: 1fr;
   }
